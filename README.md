@@ -29,7 +29,67 @@ Install Node.js (>= v18)
 Install Docker & Docker Compose
 Get a Google Cloud API Key for translations
 
- Clone the Repository
+ Clone the Repository:
 
 git clone https://github.com/chinzproject/faq-management.git
+
 cd faq-management/backend
+
+ Create a .env File:
+
+PORT=8000
+MONGO_URI=mongodb://mongo:27017/faq_db
+REDIS_HOST=redis
+REDIS_PORT=6379
+GOOGLE_APPLICATION_CREDENTIALS=/app/src/config/translation-api-key.json
+
+Start the Application (Using Docker):
+
+docker-compose up --build -d
+🚀 The server will start at:
+
+API: http://localhost:8000/api/faqs
+Admin Panel: http://localhost:8000/admin
+
+🚀 API Endpoints:
+Method	                         Endpoint	                              Description
+GET	                            /api/faqs                              	Get all FAQs
+POST	                           /api/faqs	                              Create a new FAQ
+PUT	                            /api/faqs/:id	                          Update an FAQ
+DELETE	                         /api/faqs/:id	                          Delete an FAQ
+GET	                            /api/health	                            Check server health
+
+🛠️ Running Tests
+
+npm test
+✅ Uses Jest & Supertest to validate API functionality.
+
+🖥️ Admin Panel:
+
+Open http://localhost:8000/admin
+Manage FAQs easily (create, edit, delete)
+
+📦 Deployment:
+🔹 Using Docker
+
+docker-compose up --build -d
+
+🔹 Without Docker
+
+npm install
+npm start
+
+🤝 Contributing:
+
+Fork the repo
+Create a new branch (git checkout -b feature-branch)
+Commit changes (git commit -m "Added feature X")
+Push to the branch (git push origin feature-branch)
+Create a Pull Request
+
+📝 License:
+This project is MIT Licensed.
+
+📞 Contact:
+💬 For any queries, feel free to reach out! 🚀
+
