@@ -1,7 +1,7 @@
 
-🚀 A FAQ Management System with Multi-language Support📝 with an Admin Panel, API, and Redis Caching, built with Node.js, Express.js, MongoDB, and Docker.
+## 🚀 A FAQ Management System with Multi-language Support📝 with an Admin Panel, API, and Redis Caching, built with Node.js, Express.js, MongoDB, and Docker.
 
-📌 Features
+### 📌 Features
 
 ✔ Create, Read, Update, and Delete (CRUD) FAQs
 ✔ Admin Dashboard for managing FAQs easily
@@ -12,7 +12,7 @@
 ✔ Dockerized Deployment
 ✔ Automated Testing with Jest & Supertest
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Backend: Node.js, Express.js
 Database: MongoDB
@@ -21,19 +21,19 @@ Admin Panel: AdminJS
 Testing: Jest, Supertest
 Containerization: Docker, Docker Compose
 
-📦 Installation
+### 📦 Installation
 
 🔹 Prerequisites
-Install Node.js (>= v18)
-Install Docker & Docker Compose
-Get a Google Cloud API Key for translations
+1.Install Node.js (>= v18)
+2.Install Docker & Docker Compose
+3.Get a Google Cloud API Key for translations
 
- Clone the Repository:
-
+### Clone the Repository:
+``` sh
 git clone https://github.com/chinzproject/faq-management.git
 
 cd faq-management/backend
-
+```
  Create a .env File:
 
 PORT=8000
