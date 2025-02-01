@@ -3,30 +3,30 @@
 
 ### 📌 Features
 
--✔ Create, Read, Update, and Delete (CRUD) FAQs
--✔ Admin Dashboard for managing FAQs easily
--✔ Multi-language Translation Support using Google Cloud Translate
--✔ Markdown Support for rich text formatting
--✔ REST API for programmatic access
--✔ Redis Caching for fast responses
--✔ Dockerized Deployment
--✔ Automated Testing with Jest & Supertest
+- ✔ Create, Read, Update, and Delete (CRUD) FAQs
+- ✔ Admin Dashboard for managing FAQs easily
+- ✔ Multi-language Translation Support using Google Cloud Translate
+- ✔ Markdown Support for rich text formatting
+- ✔ REST API for programmatic access
+- ✔ Redis Caching for fast responses
+- ✔ Dockerized Deployment
+- ✔ Automated Testing with Jest & Supertest
 
 ### 🛠️ Tech Stack
 
--Backend: Node.js, Express.js
--Database: MongoDB
--Cache: Redis
--Admin Panel: AdminJS
--Testing: Jest, Supertest
--Containerization: Docker, Docker Compose
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Cache: Redis
+- Admin Panel: AdminJS
+- Testing: Jest, Supertest
+- Containerization: Docker, Docker Compose
 
 ### 📦 Installation
 
 🔹 Prerequisites
-1.Install Node.js (>= v18)
-2.Install Docker & Docker Compose
-3.Get a Google Cloud API Key for translations
+- 1.Install Node.js (>= v18)
+- 2.Install Docker & Docker Compose
+- 3.Get a Google Cloud API Key for translations
 
 ### Clone the Repository:
 ``` sh
@@ -47,16 +47,16 @@ GOOGLE_APPLICATION_CREDENTIALS=/app/src/config/translation-api-key.json
 docker-compose up --build -d
 ```
 ### 🚀 The server will start at:
--API: http://localhost:8000/api/faqs
--Admin Panel: http://localhost:8000/admin
+- API: http://localhost:8000/api/faqs
+- Admin Panel: http://localhost:8000/admin
 
 ### 🚀 API Endpoints:
--Method	                         Endpoint	                              Description
--GET	                            /api/faqs                              	Get all FAQs
--POST	                           /api/faqs	                              Create a new FAQ
--PUT	                            /api/faqs/:id	                          Update an FAQ
--DELETE	                         /api/faqs/:id	                          Delete an FAQ
--GET	                            /api/health	                            Check server health
+- Method	                         Endpoint	                              Description
+- GET	                            /api/faqs                              	Get all FAQs
+- POST	                           /api/faqs	                              Create a new FAQ
+- PUT	                            /api/faqs/:id	                          Update an FAQ
+- DELETE	                         /api/faqs/:id	                          Delete an FAQ
+- GET	                            /api/health	                            Check server health
 
 ### 🛠️ Running Tests
 ```sh
@@ -66,8 +66,8 @@ npm test
 
 ### 🖥️ Admin Panel:
 
--Open http://localhost:8000/admin
--Manage FAQs easily (create, edit, delete)
+- Open http://localhost:8000/admin
+- Manage FAQs easily (create, edit, delete)
 
 ### 📦 Deployment:
 🔹 Using Docker
@@ -81,11 +81,11 @@ npm start
 ```
 🤝 Contributing:
 
--1.Fork the repo
--2.Create a new branch (git checkout -b feature-branch)
--3.Commit changes (git commit -m "Added feature X")
--4.Push to the branch (git push origin feature-branch)
--5.Create a Pull Request
+- 1.Fork the repo
+- 2.Create a new branch (git checkout -b feature-branch)
+- 3.Commit changes (git commit -m "Added feature X")
+- 4.Push to the branch (git push origin feature-branch)
+- 5.Create a Pull Request
 
 ## 📝 License:
 This project is MIT Licensed.
